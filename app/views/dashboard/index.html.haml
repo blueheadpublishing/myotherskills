@@ -1,0 +1,21 @@
+%h2 No skills yet... what can you do?
+%table
+  %tr
+    %th Name
+    %th Experience
+    %th Level
+    %th Description
+    %th
+    %th
+    %th
+
+  - @skills.each do |skill|
+    %tr
+      %td= skill.name
+      %td= skill.experience
+      %td= skill.level
+      %td= skill.description
+
+%a{:href => new_skill_path}
+  = fa_icon "plus-circle"
+  Add a skill
