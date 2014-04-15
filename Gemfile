@@ -13,7 +13,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
 
 gem 'haml'
 gem 'haml-rails', :group => :development
