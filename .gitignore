@@ -14,7 +14,7 @@
 /log/*.log
 /tmp
 
-Gemfile.lock
+
 db/schema.rb
 MyOtherSkills_development
 MyOtherSkills_test
