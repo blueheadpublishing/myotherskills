@@ -1,4 +1,4 @@
-$brand-primary: #FF9900;
+$brand-primary: #44dd00;
 $link-color: $brand-primary;
 $link-hover-color: darken($link-color, 15%);
 $font-family-base: 'Ubuntu', sans-serif;
@@ -11,8 +11,15 @@ $state-info-border: $brand-primary;
 @import "font-awesome";
 @import "twitter/bootstrap";
 
-h1 {
-	color: #44dd00;
+body {
+	background-color: $brand-primary;
+	background-image:  url('hammer.gif');
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+h1, h2 {
+	color: white;
 	font-size: 1.5em
 }
 .navbar-brand{
