@@ -23,5 +23,4 @@ production:
   encoding: unicode
   database: mos_production
   pool: 5
-  username: root
   password: 

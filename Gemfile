@@ -52,6 +52,10 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
 # Using thin for development server
 gem 'thin', :group => :development
 
+group :production do
+  gem 'pg'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

@@ -2,3 +2,7 @@ language: ruby
 rvm:
   - 2.0.0-p247
 install: sh install.sh
+
+deploy:
+  provider: heroku
+  api_key: "865ec1a3-8828-4bea-8093-8ba55b987cec"
