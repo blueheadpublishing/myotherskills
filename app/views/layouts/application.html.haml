@@ -108,4 +108,6 @@
       .container.text-center
         %p.text-muted.credit
           = MyOtherSkills::Application.config.application_name
-          @ #{Time.now.year}
+          @ #{Time.now.year};
+          a product of 
+          = link_to "World Uniting, Inc.", "http://worlduniting.org", :target => '_blank'
