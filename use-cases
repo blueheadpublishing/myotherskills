@@ -1,0 +1,20 @@
+use-cases
+
+User First Login and Create First Skill
+* User logs in for the first time via facebook, google, or twitter login, is redirected to the skill wizard, selects type of skill and then completes the rest of details on the skill. Wizard offers to create a new skill or to redirect to his dashboard.
+
+User Login and Edit (CRUD) Skills
+* User logs in and is redirected to dashboard
+
+Organizational User
+* User is directed to custom branded organizational page
+
+
+
+COMPONENTS
+
+Dashboard
+* User Skills List - A list of user skills
+* User Group List - A list of groups the user is a member of
+* Messages
+
